@@ -1,0 +1,10 @@
+Classique Burger
+Un classique burger c'est comme un burger mais en classique
+13
+100
+Burger taille normale + frites + 1 sauce au choix
+11/02/2025
+1
+Burger
+9
+11
