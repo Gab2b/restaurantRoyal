@@ -12,7 +12,7 @@ public class Menu {
     private String name;
     private String creationDate;
     private String typeMenu;
-    ArrayList<Dish> availableDishes = new ArrayList<Dish>();
+    public ArrayList<Dish> availableDishes = new ArrayList<Dish>();
 
     //
     // CONSTRUCTEUR

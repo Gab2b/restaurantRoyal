@@ -18,7 +18,12 @@ public class Main {
                     new Commands.AddRestaurant(newScan, allRestaurants),
                     new Commands.AddEmployee(newScan, allRestaurants),
                     new Commands.AddDish(newScan, allRestaurants),
+                    new Commands.NewOrder(newScan, allRestaurants),
                     new Commands.DisplayEmployees(newScan, allRestaurants),
+                    new Commands.DisplayOrders(newScan, allRestaurants),
+                    new Commands.DisplayRestaurant(newScan, allRestaurants),
+                    new Commands.SaveRestaurant(newScan, allRestaurants),
+                    new Commands.DeleteEmployee(newScan, allRestaurants),
                     new Commands.Quit()
             };
 
@@ -46,6 +51,7 @@ public class Main {
 
 
             if (choice <= 0 || choice > commands.length) {
+
                 System.out.println(choice);
                 System.out.println("Invalid input");
             }
